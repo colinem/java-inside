@@ -1,0 +1,2 @@
+JMH S 33 fr.umlv.javainside.labone.SumsJMH S 64 fr.umlv.javainside.labone.generated.SumsJMH_jmhStreamSum_jmhTest S 12 jmhStreamSum S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 33 fr.umlv.javainside.labone.SumsJMH S 62 fr.umlv.javainside.labone.generated.SumsJMH_jmhLoopSum_jmhTest S 10 jmhLoopSum S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
