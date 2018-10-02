@@ -11,8 +11,6 @@ env:
 install:
   - cd labone
   - java pro_wrapper.java version
-  - cd ../labtwo
-  - java pro_wrapper.java version
 
 
 script:
