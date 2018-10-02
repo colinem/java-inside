@@ -7,14 +7,15 @@ before_install:
 
 matrix:
 	include:
-	- env:FILE=labone
-	- ens:FILE=labtwo
+	- env: FOLDER=labone
+	- env: FOLDER=labtwo
 
 env: 
   - PRO_SPECIAL_BUILD='early-access'
 
 install:
-  - cd $FILE
+  - echo $FOLDER
+  - cd $FOLDER
   - java pro_wrapper.java version
 
 
