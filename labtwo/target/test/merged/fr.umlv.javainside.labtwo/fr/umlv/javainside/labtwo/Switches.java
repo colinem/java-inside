@@ -14,5 +14,18 @@ public class Switches {
 			throw new IllegalArgumentException();
 		}
 	}
+	
+	public static String intSwitch2(int val) {
+		switch (val) {
+		case 10:
+			return "ten";
+		case 0:
+			return "zero";
+		case 100:
+			return "a lot";
+		default:
+			throw new IllegalArgumentException();
+		}
+	}
 
 }
