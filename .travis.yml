@@ -7,8 +7,8 @@ before_install:
 
 matrix:
 	include:
-	-env:FILE=labone
-	-ens:FILE=labtwo
+	- env:FILE=labone
+	- ens:FILE=labtwo
 
 env: 
   - PRO_SPECIAL_BUILD='early-access'
