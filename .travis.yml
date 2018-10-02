@@ -5,11 +5,16 @@ jdk: openjdk11
 before_install:
   - unset _JAVA_OPTIONS
 
+matrix:
+	include:
+	-env:FILE=labone
+	-ens:FILE=labtwo
+
 env: 
   - PRO_SPECIAL_BUILD='early-access'
 
 install:
-  - cd labone
+  - cd $FILE
   - java pro_wrapper.java version
 
 
