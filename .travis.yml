@@ -6,9 +6,9 @@ before_install:
   - unset _JAVA_OPTIONS
 
 matrix:
-	include:
-	  - env: FOLDER=labone
-	  - env: FOLDER=labtwo
+  include:
+    - env: FOLDER=labone
+    - env: FOLDER=labtwo
 
 env: 
   - PRO_SPECIAL_BUILD='early-access'
