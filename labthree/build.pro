@@ -31,6 +31,6 @@ packager.
         "fr.umlv.javainside.labthree@1.0/fr.umlv.javainside.labthree.Main"
     )   
     
-run(resolver, modulefixer, compiler, tester, docer, packager, runner /*, perfer */)
+run(resolver, modulefixer, compiler, tester, /*docer,*/ packager, runner /*, perfer */)
 
 /exit
