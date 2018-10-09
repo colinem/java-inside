@@ -1,4 +1,4 @@
-package fr.umlv.javainside.labtwo;
+package fr.umlv.javainside.labthree;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -9,8 +9,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 
 class SwitchesTests {
 
-	@ParameterizedTest
-	@MethodSource
 	void testIntSwitch() {
 		assertThrows(IllegalArgumentException.class, () -> Switches.intSwitch(-1));
 		assertEquals("zero", Switches.intSwitch(0));

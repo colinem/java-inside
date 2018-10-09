@@ -9,9 +9,10 @@ matrix:
   include:
     - env: FOLDER=labone
     - env: FOLDER=labtwo
+    - env: FOLDER=labthree
 
 env: 
-  - PRO_SPECIAL_BUILD='early-access'
+  - PRO_SPECIAL_BUILD='early-access-amber'
 
 install:
   - echo $FOLDER

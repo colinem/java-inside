@@ -1,4 +1,4 @@
-package fr.umlv.javainside.labtwo;
+package fr.umlv.javainside.labthree;
 
 public class Switches {
 	
