@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="src/test/java/fr.umlv.javainside.labone/|src/main/java/fr.umlv.javainside.labone/|target/test/merged/fr.umlv.javainside.labone/|target/test/exploded/fr.umlv.javainside.labone/" kind="src" path="labone"/>
+	<classpathentry kind="src" path="labone/src/main/java/fr.umlv.javainside.labone"/>
+	<classpathentry kind="src" path="labone/src/test/java/fr.umlv.javainside.labone"/>
+	<classpathentry kind="src" path="labone/target/test/exploded/fr.umlv.javainside.labone"/>
+	<classpathentry kind="src" path="labone/target/test/merged/fr.umlv.javainside.labone"/>
+	<classpathentry excluding="src/test/java/fr.umlv.javainside.labtwo/|src/main/java/fr.umlv.javainside.labtwo/|target/test/merged/fr.umlv.javainside.labtwo/" kind="src" path="labtwo"/>
+	<classpathentry kind="src" path="labtwo/src/main/java/fr.umlv.javainside.labtwo"/>
+	<classpathentry kind="src" path="labtwo/src/test/java/fr.umlv.javainside.labtwo"/>
+	<classpathentry kind="src" path="labtwo/target/test/merged/fr.umlv.javainside.labtwo"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
