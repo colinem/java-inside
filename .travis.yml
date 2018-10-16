@@ -7,18 +7,10 @@ before_install:
 
 matrix:
   include:
-    - env:
-      FOLDER=labone
-      PRO_SPECIAL_BUILD='early-access'
-    - env:
-      FOLDER=labtwo
-      PRO_SPECIAL_BUILD='early-access'
-    - env:
-      FOLDER=labthree
-      PRO_SPECIAL_BUILD='early-access-amber'
-    - env:
-      FOLDER=labfour
-      PRO_SPECIAL_BUILD='early-access-loop'
+    - env: FOLDER=labone PRO_SPECIAL_BUILD='early-access'
+    - env: FOLDER=labtwo PRO_SPECIAL_BUILD='early-access'
+    - env: FOLDER=labthree PRO_SPECIAL_BUILD='early-access-amber'
+    - env: FOLDER=labfour PRO_SPECIAL_BUILD='early-access-loop'
 
 install:
   - echo $FOLDER
