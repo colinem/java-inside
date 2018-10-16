@@ -9,10 +9,12 @@ public class Exemple1 {
 				() -> {
 					Continuation.yield(s);
 					System.out.println("hello continuation");
+					System.out.println(Continuation.getCurrentContinuation(s));
 				});
 		c.run();
-		System.out.println("test");
 		c.run();
+		System.out.println(Continuation.getCurrentContinuation(s));
+		System.out.println(Thread.currentThread());
 
 	}
 
