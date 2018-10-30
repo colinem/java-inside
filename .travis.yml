@@ -11,6 +11,7 @@ matrix:
     - env: FOLDER=labtwo PRO_SPECIAL_BUILD='early-access'
     - env: FOLDER=labthree PRO_SPECIAL_BUILD='early-access-amber'
     - env: FOLDER=labfour PRO_SPECIAL_BUILD='early-access-loop'
+    - env: FOLDER=labsix PRO_SPECIAL_BUILD='early-access'
 
 install:
   - echo $FOLDER
